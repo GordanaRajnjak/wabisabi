@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wabi Sabi</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+.fotka {
+    
+    position: absolute;
+    
+    width: 200px;
+    height: 300px;
+    
+}
+.one {
+    left: 300px;
+}
+.two {
+    left: 500px;
+}
+.three {
+    right: 700px;
+}
+
+
+        </style>
+</head>
+
+<body onload="auto()">
+
+
+<img name="slideshow" src="images/grana.jpg">
+<h1 id="headlines"></h1>
+<!--
+<img name="slideshow" class="fotka one" src="images/devojka.jpg">
+<img name="slideshow" class="fotka two" src="images/grana.jpg">
+<img name="slideshow" class="fotka three hidden" src="images/soba.jpg">
+
+
+<table>
+    <tr>
+        <td align="left"><a href="javascript:change_image(-1)">PREVIOUS</a></td>
+        <td align="right"><a href="javascript:change_image(1)">NEXT</a></td>
+    </tr>
+</table>
+-->
+<br>
+<button id="prev" type="button" onclick="change_image(-1)" >PREV</button>
+<button id="next" type="button" onclick="change_image(1)">NEXT</button>
+
+<script>
+
+
+
+
+function auto() {
+    var interval = setInterval("change_image(1)", 4000);
+}
+    
+
+
+var Image = ["images/devojka.jpg", "images/grana.jpg", "images/vrata.jpg"];
+var caption = ["The age of beautiful inperfections", "When ordinary decor becomes unordinary", "Monasteries know wabi-sabi"];
+var Image_number = 0;
+var Image_length = Image.length - 1;
+
+function change_image(num){
+    Image_number = Image_number + num;
+
+    if (Image_number > Image_length){
+    Image_number = 0;
+}
+    if (Image_number < 0){
+    Image_number = Image_length;
+}
+
+document.slideshow.src = Image[Image_number];
+document.getElementById("headlines").innerHTML = caption[Image_number];
+}
+
+/*
+
+// SLIDER SA CAPTION i ANCHOR
+
+function auto() {
+    setInterval("change_image(1)", 4000);
+}
+
+var image = ["images/grana.jpg", "images/devojka.jpg", "images/vrata.jpg"];
+var caption = ["When ordinary decor becomes unordinary", "The age of beautiful imperfections", "Monasteries know wabi-sabi"];
+var anchor = ["slider_article_1.html", "slider_article_2.html", "slider_article_3.html"];
+var image_number = 0;
+var image_length = image.length - 1;
+
+
+function change_image(num) {
+    image_number = image_number + num;
+
+    if (image_number < 0) {
+        image_number = image_length;
+    }
+
+    if (image_number > image_length) {
+        image_number = 0;
+    }
+
+    document.slideshow.src = image[image_number];
+    document.getElementById("slideshow_headlines").innerHTML = caption[image_number];
+    document.getElementById("link").href = anchor[image_number];
+}
+
+ 
+*/
+
+
+
+</script>
+
+
+<!--
+<script>
+    AUTOMATSKI ZA JS
+document.body.onload = auto();
+
+function auto(){
+    setInterval("change_image(1)", 3000);
+}
+
+
+
+$(document).ready(function(){
+    $("#prev").click(function(){
+        $(".three").animate({right: "+=200px"}).removeClass('hidden').addClass('vissible');
+    });
+});
+    </script>
+
+    -->
+
+
+</body>
+</html>
+

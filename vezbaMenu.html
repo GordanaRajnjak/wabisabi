@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wabi Sabi</title>
+    <link rel="stylesheet" href="stylesheets/vezba.css" type="text/css" media="all">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<br>
+
+<div id="flex">
+
+<div id="okvir1" class="okviri">
+    <img id="image" src="download.jpg"> 
+</div>
+
+
+<div id="okvir2" class="okviri">
+    <img id="image" src="ARD-Chapter-7-The-Tea-Garden-16.jpg"> 
+</div>
+
+</div>
+<img src="rep.png" >
+
+<button type="button" >click me</button> <button type="button" onclick="scrolling()">scroll</button>
+
+<div id="displayokvir">
+    <ul class="okvir">
+        
+        <li class="fotka"><img id="prva"  src="cats/5bc847af670dd9aa.jpg">
+            <div id="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 id="slideshow_headlines">When ordinary decor becomes unordinary</h1>
+                <p id="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+        </li>
+        <li class="fotka"><img id="druga" src="cats/4e34feee0acdc38a.jpg">
+          <div id="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 id="slideshow_headlines">When ordinary decor becomes unordinary</h1>
+                <p id="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+        <li class="fotka"><img id="treca" src="cats/41df257c0c3fa158.jpg">
+         <div id="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 id="slideshow_headlines">When ordinary decor becomes unordinary</h1>
+                <p id="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+        <li class="fotka"><img id="prva"  src="cats/5bc847af670dd9aa.jpg">
+         <div id="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 id="slideshow_headlines">When ordinary decor becomes unordinary</h1>
+                <p id="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+    </ul>
+</div>
+
+
+
+<br>
+<button id="prev" class="buttons" type="button" onclick="prevSlide()">prev</button>
+<button id="next" class="buttons" type="button" onclick="nextSlide()">next</button>
+
+
+<script>
+    
+
+
+    var width = 400;
+    var animatedSpeed = 3000;
+    var pause = 3000;
+    var currentSlide = 1;
+
+    var $slider = $('#displayokvir');
+    var $slideContainer = $slider.find('.okvir');
+    var $slides = $slideContainer.find('.fotka');
+
+    var interval;
+    
+    function nextSlide() {
+                $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
+                    currentSlide++;
+                if (currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            }
+                )};
+    function prevSlide() {
+      $slideContainer.animate({'margin-left': '+='+width}, animatedSpeed, function() {
+                    currentSlide--;
+                if (currentSlide === 1) {
+                    currentSlide = $slides.length;
+                   $slideContainer.css('margin-left', -1200);
+                }
+            }
+                )};
+
+    function startSlider() {
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
+                currentSlide++;
+                if (currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });        
+        }, pause);
+    }
+       function stopSlider() {
+           clearInterval(interval);
+
+       } 
+
+       $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+       $('.buttons').on('mouseenter', stopSlider).on('mouseleave', startSlider);
+       startSlider();
+   
+    
+      
+
+       
+
+
+ 
+//
+
+
+
+/*
+var image = ["cats/5bc847af670dd9aa.jpg", "cats/4e34feee0acdc38a.jpg", "cats/41df257c0c3fa158.jpg"];
+
+var image_number = 0;
+var image_length = image.length - 1;
+
+
+function change_image(num) {
+    image_number = image_number + num;
+
+    $('#prva').animate({'margin-left': '400px'});
+
+    if (image_number < 0) {
+        image_number = image_length;
+    }
+
+    if (image_number > image_length) {
+        image_number = 0;
+    }
+
+    document.slideshow.src = image[image_number];
+    
+}
+$(document).ready(function() {
+    setInterval("change_image(1)", 2000);
+});
+*/
+
+
+var velikaVrednost = document.getElementById("okvir1").scrollTop;
+var malaVrednost = document.getElementById("okvir2").scrollTop;
+
+
+
+$(window).on('scroll', function () {
+
+    $('.okviri').scrollTop($(window).scrollTop() / 2);
+    
+});
+
+    
+
+    
+
+
+</script>
+
+
+</body>
+</html>

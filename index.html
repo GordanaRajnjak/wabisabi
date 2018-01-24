@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wabi Sabi</title>
+    <link rel="stylesheet" href="sass/stylesheets/wabisabi.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body onload="auto()">
+
+
+<div id="display_menu_mob">
+    <i class="fa fa-times-circle" aria-hidden="true" onclick="display_menu_mob_none()"></i>
+    
+<ul id="menu-ul">
+    
+        <li>Wabi Sabi</li>
+        <li>News</li>
+        <li>History</li>
+        <li>Art</li>
+        <li>In home</li>
+        
+    </ul>
+</div>
+
+<div id="display_menu_desk" onclick="stay_menu()">
+    
+    <i class="fa fa-times" aria-hidden="true" onclick="display_menu_desk_none()"></i>
+    
+<ul id="menu-ul">
+    
+        <li>Wabi Sabi</li>
+        <li>News</li>
+        <li>History</li>
+        <li>Art</li>
+        <li>In home</li>
+        
+    </ul>
+</div>
+
+
+<div id="transparent">
+
+<nav>
+
+<div id="logo">
+    <img src="sass/logo/logo1.jpg">
+</div>
+
+
+
+<div id="menu">
+    <i class="fa-mob fa fa-bars" aria-hidden="true" onclick="display_menu_mob()"></i>
+    <i class="fa-desc fa fa-bars" aria-hidden="true" onclick="display_menu_deck()"></i>
+    
+</div>
+
+<div id="site-branding">
+    <p>Wabi Sabi</p>
+</div>
+
+</nav>
+
+<div id="social-menu">
+    <ul id="social-menu-ul">
+        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    </ul>
+</div>
+
+
+
+<header>
+
+<div id="img-headline" class="okvir">
+        <img src="posudeManja.jpg" id="posudeManja" alt="posude">
+        <img id="posudeVeca" src="posude.jpg" id="posudeVeca" alt="posude">
+
+    <div id="headlines">
+        <h1>Wabi Sabi</h1>
+        <h2>Beauty of the Inner Feeling</h2>
+    </div>
+</div>
+
+</header>
+<div id="main">
+<div class="concept">
+
+<p id="desc_quote_1">It's ordinary to love a beautiful . . .</p>
+</div>
+
+<div id="headline_slideshow">
+    <h2 id="main_headlines_mob">Latest about Wabi Sabi</h2>
+    <div id="slideshow">
+
+<!-- SLIDESHOW JQ 
+
+<div id="displayokvir">
+    <ul class="okvir">
+        
+        <li class="fotka"><img class="imgBigScreen" src="images/grana.jpg">
+            <div class="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 class="slideshow_headlines">Ordinary becoming unordinary</h1>
+                <p class="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+        </li>
+        <li class="fotka"><img class="imgBigScreen" src="images/devojka.jpg">
+          <div class="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 class="slideshow_headlines">The age of beautiful imperfections</h1>
+                <p class="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+        <li class="fotka"><img class="imgBigScreen" src="images/vrata.jpg">
+         <div class="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 class="slideshow_headlines">Monasteries know wabi-sabi</h1>
+                <p class="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+        <li class="fotka"><img class="imgBigScreen" src="images/grana.jpg">
+         <div class="caption">
+            <a href="slider_article_1.html" id="link">
+                <h1 class="slideshow_headlines">Ordinary becoming unordinary</h1>
+                <p class="read-more">
+                <a href="">Read more</a>
+                </p>
+            </a>
+            </div>
+            </li>
+    </ul>
+</div>
+-->
+<!-- SLIDESHOW ZA MOBILNI-->
+<div id="fotkaSlideshow">
+<img name="slideshow" src="images/grana.jpg">
+</div>
+<a href="slider_article_1.html" id="link">
+<h1 id="slideshow_headlines">When ordinary decor becomes unordinary</h1>
+<p id="read-more"><a href="">Read more</a></p>
+        </a>
+
+<!-- KRAJ SLIDESHOW-A ZA MOB -->
+
+<i class="fa fa-angle-left" aria-hidden="true" onclick="change_image(-1)"></i>
+<i class="fa fa-angle-right" aria-hidden="true" onclick="change_image(1)"></i>
+</div>
+<h2 id="main_headlines_desc">Latest about Wabi Sabi</h2>
+</div>
+
+<div class="concept">
+<p id="mob_quote"><strong>It's ordinary to love a beautiful, but it's beautiful to love the ordinary. . .</strong></p>
+
+</div>
+
+<p id="desc_quote_2">. . . but it's beautiful to love the ordinary.</p>
+
+
+<div id="sections">
+   
+    <div id="history_img" class="okvir">
+    
+    <img src="ca9bb497c69e9c05c0c93638ec743187--japanese-tea-set-chinese-tea-set.jpg">
+    
+    </div>
+    <h2 class="history-headline">History</h2>
+ 
+
+
+
+    <div id="art_img" class="okvir-bird">
+    <img src="6e4f5a88509afe30fd4ffbf161e81f63.jpg">
+    </div>
+<h2 class="art-headline">Art</h2>
+</div>
+
+<div id="section">
+    <div id="home_img" class="okvir">
+        
+    <img src="3acdf0c3c0455cec471f005ada02449b--house-lighting-hanging-lamps.jpg">
+    </div>
+    <h2 class="home-headline">In home</h2>
+</div>
+
+
+
+
+
+
+</div>
+
+<footer>
+    <h2>Subscribe for All Things Wabi Sabi</h2>
+    <form>    
+        <input type="subscribe" placeholder="Email Address" name="email">
+        <br>
+        <button type="submit">SUBMIT</button>
+    </form>
+
+    <p id="publish">&copy; 2017 Gordana Rajnjak. Proudly created with Fermicoding</p>
+</footer>
+
+</div>
+
+
+<script>
+
+// MENU MOB
+
+function display_menu_mob() {
+    document.getElementById("display_menu_mob").style.display = "flex";
+
+    if (document.getElementById("display_menu_mob").style.display = "flex") {
+
+        window.scrollTo(0, 0);
+    }
+}
+
+function display_menu_mob_none() {
+    
+    
+    document.getElementById("display_menu_mob").style.display = "none";
+    }
+
+
+
+
+
+
+
+
+// MENU DESKTOP
+
+function display_menu_deck() {
+   document.getElementById("transparent").style.opacity = "0.3";
+   
+    document.getElementById("display_menu_desk").style.transform = "translate(0px,200px)";
+    
+}
+
+
+function display_menu_desk_none() {
+    document.getElementById("display_menu_desk").style.transform = "translate(0px,-200px)";
+   // document.getElementById("display_menu").style.display = "none";
+
+    document.getElementById("transparent").style.opacity = "1";
+ //   document.getElementById("false-transparent").style.display = "none";
+}
+
+// JQ SLIDER
+/*
+var width = 630;
+    var animatedSpeed = 3000;
+    var pause = 4000;
+    var currentSlide = 1;
+
+    var $slider = $('#displayokvir');
+    var $slideContainer = $slider.find('.okvir');
+    var $slides = $slideContainer.find('.fotka');
+
+    var interval;
+    
+    function nextSlide() {
+                $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
+                    currentSlide++;
+                if (currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            }
+                )};
+    function prevSlide() {
+      $slideContainer.animate({'margin-left': '+='+width}, animatedSpeed, function() {
+                    currentSlide--;
+                if (currentSlide === 1) {
+                    currentSlide = $slides.length;
+                   $slideContainer.css('margin-left', -1890);
+                }
+            }
+                )};
+
+    function startSlider() {
+        interval = setInterval(function() {
+            $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
+                currentSlide++;
+                if (currentSlide === $slides.length) {
+                    currentSlide = 1;
+                    $slideContainer.css('margin-left', 0);
+                }
+            });        
+        }, pause);
+    }
+       function stopSlider() {
+           clearInterval(interval);
+
+       } 
+
+       $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+       $('.buttons').on('mouseenter', stopSlider).on('mouseleave', startSlider);
+       startSlider();
+
+  */
+
+function auto() {
+    setInterval("change_image(1)", 4000);
+}
+
+var image = ["images/grana.jpg", "images/devojka.jpg", "images/vrata.jpg"];
+var caption = ["When ordinary decor becomes unordinary", "The age of beautiful imperfections", "Monasteries know wabi-sabi"];
+var anchor = ["slider_article_1.html", "slider_article_2.html", "slider_article_3.html"];
+var image_number = 0;
+var image_length = image.length - 1;
+
+
+function change_image(num) {
+    image_number = image_number + num;
+
+    if (image_number < 0) {
+        image_number = image_length;
+    }
+
+    if (image_number > image_length) {
+        image_number = 0;
+    }
+
+    document.slideshow.src = image[image_number];
+    document.getElementById("slideshow_headlines").innerHTML = caption[image_number];
+    document.getElementById("link").href = anchor[image_number];
+}
+  
+
+
+// PARALLAX
+
+$(window).on('scroll', function () {
+
+    $('.okvir').scrollTop($(window).scrollTop() / 1.5);
+    $('.okvir-bird').scrollTop($(window).scrollTop() / 3);
+    $('#headlines').scrollTop($(window).scrollTop());
+    
+});
+
+
+</script>
+
+
+
+</body>
+</html>

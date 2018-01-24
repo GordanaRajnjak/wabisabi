@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#meni {
+
+    
+    background: yellow;
+    overflow: hidden;
+    width: 500px;
+    height: 200px;
+   
+    list-style-type: none;
+    transform: translate(0,210px);
+    transition: transform 5s;
+    margin-top: -210px;
+    margin-left: 500px;
+}
+
+#flex {
+    display: flex;
+}
+button {
+    margin-top: 150px;
+    margin-bottom: 1000px;
+}
+
+#okvir1, #okvir2 {
+    width: 40%;
+    height: 400px;
+    overflow: hidden;
+}
+
+#okvirVeliki {
+    width: 360px;
+    height: 340px;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+/* JQUERY SLIDESHOW */
+
+#displayokvir {
+    width: 400px;
+    height: 400px;
+   overflow: hidden;
+    
+}
+.okvir {
+    display: block;
+    width: 1600px;
+    height: 400px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.fotka {
+    float: left;
+    list-style-type: none;
+    width: 400px;
+    height: 400px;
+}
+
+#caption {
+    color: black;
+}
+
+#prev, #next {
+    position: absolute;
+    margin-top: -100px;
+}
+#next {
+    position: absolute;
+    margin-left: 60px;
+}
+
+
+
+/* JS SLIDESHOW */
+
