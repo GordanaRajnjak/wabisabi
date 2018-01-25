@@ -8,6 +8,7 @@
 /* line 9, ../sass/wabisabi.scss */
 body {
   display: relative;
+  background: red;
 }
 
 /* line 14, ../sass/wabisabi.scss */
@@ -199,31 +200,31 @@ header {
   background: white;
   z-index: 10;
 }
-/* line 182, ../sass/wabisabi.scss */
+/* line 183, ../sass/wabisabi.scss */
 .concept p {
   padding: 13% 15% 3%;
   font-size: 1.5em;
 }
-/* line 186, ../sass/wabisabi.scss */
+/* line 187, ../sass/wabisabi.scss */
 .concept .read-more {
   padding-top: 0;
   font-size: 1.1em;
   margin-bottom: 20px;
 }
-/* line 190, ../sass/wabisabi.scss */
+/* line 191, ../sass/wabisabi.scss */
 .concept .read-more a {
   color: black;
 }
-/* line 194, ../sass/wabisabi.scss */
+/* line 195, ../sass/wabisabi.scss */
 .concept #desc_quote_1, .concept #desc_quote_2 {
   display: none;
 }
 
-/* line 198, ../sass/wabisabi.scss */
+/* line 200, ../sass/wabisabi.scss */
 #headline_slideshow {
   padding-top: 40px;
 }
-/* line 200, ../sass/wabisabi.scss */
+/* line 202, ../sass/wabisabi.scss */
 #headline_slideshow h2 {
   font-size: 2.2em;
   text-align: center;
@@ -231,33 +232,33 @@ header {
   padding: 0 10%;
 }
 
-/* line 207, ../sass/wabisabi.scss */
+/* line 209, ../sass/wabisabi.scss */
 #fotkaSlideshow {
   height: 350px;
   overflow: hidden;
 }
 
-/* line 211, ../sass/wabisabi.scss */
+/* line 213, ../sass/wabisabi.scss */
 #slideshow {
   max-width: 100%;
   height: 240px;
   margin-bottom: 220px;
 }
-/* line 216, ../sass/wabisabi.scss */
+/* line 218, ../sass/wabisabi.scss */
 #slideshow img {
   max-width: 100%;
 }
-/* line 219, ../sass/wabisabi.scss */
+/* line 221, ../sass/wabisabi.scss */
 #slideshow a {
   color: black;
   text-decoration: none;
 }
-/* line 224, ../sass/wabisabi.scss */
+/* line 226, ../sass/wabisabi.scss */
 #slideshow h1, #slideshow p {
   margin-left: 10px;
   margin-top: 10px;
 }
-/* line 228, ../sass/wabisabi.scss */
+/* line 230, ../sass/wabisabi.scss */
 #slideshow .fa {
   position: absolute;
   bottom: 50%;
@@ -265,7 +266,7 @@ header {
   color: white;
   font-size: 2em;
 }
-/* line 235, ../sass/wabisabi.scss */
+/* line 237, ../sass/wabisabi.scss */
 #slideshow .fa-angle-right {
   right: 15px;
   text-align: right;
@@ -306,7 +307,7 @@ header {
 }
 
  KRAJ SLIDESHOW */
-/* line 278, ../sass/wabisabi.scss */
+/* line 280, ../sass/wabisabi.scss */
 .main_headlines {
   font-size: 2.5em;
   margin-left: 20%;
@@ -315,7 +316,7 @@ header {
   text-align: center;
 }
 
-/* line 287, ../sass/wabisabi.scss */
+/* line 289, ../sass/wabisabi.scss */
 #history_img, #art_img, #home_img {
   height: 350px;
   max-width: 100%;
@@ -323,16 +324,16 @@ header {
   position: relative;
 }
 
-/* line 299, ../sass/wabisabi.scss */
+/* line 301, ../sass/wabisabi.scss */
 #history_img {
   margin-top: 50px;
 }
 
-/* line 304, ../sass/wabisabi.scss */
+/* line 306, ../sass/wabisabi.scss */
 #sections {
   position: relative;
 }
-/* line 307, ../sass/wabisabi.scss */
+/* line 309, ../sass/wabisabi.scss */
 #sections .history-headline {
   position: absolute;
   top: 30px;
@@ -341,7 +342,7 @@ header {
   font-size: 3em;
   border-bottom: 2px solid goldenrod;
 }
-/* line 315, ../sass/wabisabi.scss */
+/* line 317, ../sass/wabisabi.scss */
 #sections .art-headline {
   position: absolute;
   top: 400px;
@@ -351,11 +352,11 @@ header {
   border-bottom: 3px solid black;
 }
 
-/* line 325, ../sass/wabisabi.scss */
+/* line 327, ../sass/wabisabi.scss */
 #section {
   position: relative;
 }
-/* line 328, ../sass/wabisabi.scss */
+/* line 330, ../sass/wabisabi.scss */
 #section .home-headline {
   position: absolute;
   top: 20px;
@@ -365,54 +366,54 @@ header {
   border-bottom: 2px solid gold;
 }
 
-/* line 337, ../sass/wabisabi.scss */
+/* line 339, ../sass/wabisabi.scss */
 #art_img {
   margin-top: 40px;
 }
-/* line 340, ../sass/wabisabi.scss */
+/* line 342, ../sass/wabisabi.scss */
 #art_img img {
   height: auto;
   margin-top: 130px;
   margin-left: -500px;
 }
 
-/* line 347, ../sass/wabisabi.scss */
+/* line 349, ../sass/wabisabi.scss */
 #home_img {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-/* line 351, ../sass/wabisabi.scss */
+/* line 353, ../sass/wabisabi.scss */
 #home_img img {
   margin-top: 700px;
 }
 
-/* line 356, ../sass/wabisabi.scss */
+/* line 358, ../sass/wabisabi.scss */
 footer {
   background: black;
   text-align: center;
 }
-/* line 360, ../sass/wabisabi.scss */
+/* line 362, ../sass/wabisabi.scss */
 footer h2 {
   color: white;
   letter-spacing: 0.1em;
   font-size: 1.25em;
   padding: 30px 50px;
 }
-/* line 366, ../sass/wabisabi.scss */
+/* line 368, ../sass/wabisabi.scss */
 footer p {
   color: white;
   opacity: 0.3;
   padding: 30px;
   font-size: 0.9em;
 }
-/* line 372, ../sass/wabisabi.scss */
+/* line 374, ../sass/wabisabi.scss */
 footer input {
   width: 80%;
   background: black;
   height: 30px;
   border: 1px solid white;
 }
-/* line 378, ../sass/wabisabi.scss */
+/* line 380, ../sass/wabisabi.scss */
 footer button {
   width: 80%;
   color: black;
@@ -423,215 +424,215 @@ footer button {
   letter-spacing: 0.5em;
 }
 
-/* line 389, ../sass/wabisabi.scss */
+/* line 391, ../sass/wabisabi.scss */
 #headlines_slideshow {
   display: none;
 }
 
-/* line 392, ../sass/wabisabi.scss */
+/* line 394, ../sass/wabisabi.scss */
 #main_headlines_desc {
   display: none;
 }
 
-/* line 395, ../sass/wabisabi.scss */
+/* line 397, ../sass/wabisabi.scss */
 #desc_quote_2 {
   display: none;
 }
 
-/* line 400, ../sass/wabisabi.scss */
+/* line 402, ../sass/wabisabi.scss */
 #menu .fa-desc {
   display: none;
 }
 
-/* line 405, ../sass/wabisabi.scss */
+/* line 407, ../sass/wabisabi.scss */
 #transparent {
   max-width: 100%;
 }
 
-/* line 408, ../sass/wabisabi.scss */
+/* line 410, ../sass/wabisabi.scss */
 #false-transparent {
   display: none;
 }
 
 @media only screen and (min-width: 450px) {
-  /* line 416, ../sass/wabisabi.scss */
+  /* line 418, ../sass/wabisabi.scss */
   #headlines h1 {
     margin-top: 30px;
   }
 
-  /* line 420, ../sass/wabisabi.scss */
+  /* line 422, ../sass/wabisabi.scss */
   #main {
     padding-left: 10%;
     padding-right: 10%;
   }
 
-  /* line 424, ../sass/wabisabi.scss */
+  /* line 426, ../sass/wabisabi.scss */
   #headline_slideshow {
     margin-bottom: 20px;
   }
 
-  /* line 427, ../sass/wabisabi.scss */
+  /* line 429, ../sass/wabisabi.scss */
   #history_img, #art_img, #home_img {
     height: 400px;
   }
 
-  /* line 432, ../sass/wabisabi.scss */
+  /* line 434, ../sass/wabisabi.scss */
   #sections .art-headline {
     top: 450px;
   }
 
-  /* line 438, ../sass/wabisabi.scss */
+  /* line 440, ../sass/wabisabi.scss */
   #art_img img {
     margin-top: -100px;
     margin-left: -200px;
   }
 
-  /* line 446, ../sass/wabisabi.scss */
+  /* line 448, ../sass/wabisabi.scss */
   #home_img img {
     margin-top: 1000px;
   }
 
-  /* line 452, ../sass/wabisabi.scss */
+  /* line 454, ../sass/wabisabi.scss */
   footer button {
     width: 65%;
     height: 35px;
     margin-bottom: 30px;
   }
-  /* line 457, ../sass/wabisabi.scss */
+  /* line 459, ../sass/wabisabi.scss */
   footer input {
     width: 65%;
     height: 35px;
   }
-  /* line 461, ../sass/wabisabi.scss */
+  /* line 463, ../sass/wabisabi.scss */
   footer h2 {
     padding: 50px;
   }
 }
 @media only screen and (min-width: 480px) {
-  /* line 467, ../sass/wabisabi.scss */
+  /* line 469, ../sass/wabisabi.scss */
   #slideshow {
     margin-bottom: 100px;
   }
 
-  /* line 470, ../sass/wabisabi.scss */
+  /* line 472, ../sass/wabisabi.scss */
   #fotkaSlideshow {
     height: 450px;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 475, ../sass/wabisabi.scss */
+  /* line 477, ../sass/wabisabi.scss */
   #social-menu {
     margin-left: 80px;
     width: calc(100% - 226px);
   }
 
-  /* line 479, ../sass/wabisabi.scss */
+  /* line 481, ../sass/wabisabi.scss */
   #slideshow {
     height: 450px;
   }
 
-  /* line 482, ../sass/wabisabi.scss */
+  /* line 484, ../sass/wabisabi.scss */
   #history_img, #art_img, #home_img {
     height: 450px;
   }
 
-  /* line 485, ../sass/wabisabi.scss */
+  /* line 487, ../sass/wabisabi.scss */
   header {
     height: 700px;
     overflow: hidden;
   }
 
-  /* line 490, ../sass/wabisabi.scss */
+  /* line 492, ../sass/wabisabi.scss */
   #headlines {
     width: 100%;
   }
 
-  /* line 495, ../sass/wabisabi.scss */
+  /* line 497, ../sass/wabisabi.scss */
   .concept p {
     padding: 10% 25% 1%;
     text-align: center;
   }
 
-  /* line 501, ../sass/wabisabi.scss */
+  /* line 503, ../sass/wabisabi.scss */
   #menu {
     font-size: 1.2em;
   }
 
-  /* line 506, ../sass/wabisabi.scss */
+  /* line 508, ../sass/wabisabi.scss */
   #sections .art-headline {
     top: 500px;
   }
 
-  /* line 511, ../sass/wabisabi.scss */
+  /* line 513, ../sass/wabisabi.scss */
   #home_img img {
     margin-top: 1300px;
   }
 }
 @media only screen and (min-width: 630px) {
-  /* line 518, ../sass/wabisabi.scss */
+  /* line 520, ../sass/wabisabi.scss */
   #headlines {
     padding: 20px 20%;
   }
-  /* line 521, ../sass/wabisabi.scss */
+  /* line 523, ../sass/wabisabi.scss */
   #headlines h1 {
     font-size: 4.5em;
   }
 
-  /* line 526, ../sass/wabisabi.scss */
+  /* line 528, ../sass/wabisabi.scss */
   #social-menu a {
     font-size: 1.25em;
   }
 
-  /* line 531, ../sass/wabisabi.scss */
+  /* line 533, ../sass/wabisabi.scss */
   #headline_slideshow h2 {
     font-size: 2.5em;
     padding: 5% 10% 0;
   }
 
-  /* line 537, ../sass/wabisabi.scss */
+  /* line 539, ../sass/wabisabi.scss */
   #history_img img {
     margin-top: 200px;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 549, ../sass/wabisabi.scss */
+  /* line 551, ../sass/wabisabi.scss */
   #display_menu_mob {
     display: none;
   }
 
-  /* line 554, ../sass/wabisabi.scss */
+  /* line 556, ../sass/wabisabi.scss */
   #menu .fa-mob {
     display: none;
   }
-  /* line 557, ../sass/wabisabi.scss */
+  /* line 559, ../sass/wabisabi.scss */
   #menu .fa-desc {
     display: block;
     margin-left: 60px;
   }
 
-  /* line 563, ../sass/wabisabi.scss */
+  /* line 565, ../sass/wabisabi.scss */
   #social-menu {
     margin-left: 80px;
     width: calc(100% - 226px);
   }
 
-  /* line 568, ../sass/wabisabi.scss */
+  /* line 570, ../sass/wabisabi.scss */
   header {
     height: 730px;
     overflow: hidden;
   }
 
-  /* line 573, ../sass/wabisabi.scss */
+  /* line 575, ../sass/wabisabi.scss */
   #slideshow {
     height: 500px;
   }
 
-  /* line 576, ../sass/wabisabi.scss */
+  /* line 578, ../sass/wabisabi.scss */
   #history_img, #art_img, #home_img {
     height: 500px;
   }
 
-  /* line 580, ../sass/wabisabi.scss */
+  /* line 582, ../sass/wabisabi.scss */
   #display_menu_desk {
     display: block;
     transition: transform 0.5s;
@@ -639,17 +640,17 @@ footer button {
     z-index: 9999;
     margin-top: -200px;
   }
-  /* line 588, ../sass/wabisabi.scss */
+  /* line 590, ../sass/wabisabi.scss */
   #display_menu_desk ul {
     display: flex;
     justify-content: center;
     margin-top: 60px;
   }
-  /* line 593, ../sass/wabisabi.scss */
+  /* line 595, ../sass/wabisabi.scss */
   #display_menu_desk ul li {
     border-bottom: none;
   }
-  /* line 597, ../sass/wabisabi.scss */
+  /* line 599, ../sass/wabisabi.scss */
   #display_menu_desk .fa-times {
     display: block;
     margin-top: 30px;
@@ -657,12 +658,12 @@ footer button {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 605, ../sass/wabisabi.scss */
+  /* line 607, ../sass/wabisabi.scss */
   #display_menu_desk .fa-times-circle {
     display: none;
   }
 
-  /* line 609, ../sass/wabisabi.scss */
+  /* line 611, ../sass/wabisabi.scss */
   #transparent {
     z-index: 1;
     height: 100%;
@@ -671,7 +672,7 @@ footer button {
     overflow: visible;
   }
 
-  /* line 617, ../sass/wabisabi.scss */
+  /* line 619, ../sass/wabisabi.scss */
   #nesto {
     display: block;
     max-width: 100%;
@@ -679,70 +680,70 @@ footer button {
     background: green;
   }
 
-  /* line 625, ../sass/wabisabi.scss */
+  /* line 627, ../sass/wabisabi.scss */
   #sections .art-headline {
     top: 550px;
   }
 
-  /* line 630, ../sass/wabisabi.scss */
+  /* line 632, ../sass/wabisabi.scss */
   #art_img img {
     margin-top: 300px;
   }
 
-  /* line 635, ../sass/wabisabi.scss */
+  /* line 637, ../sass/wabisabi.scss */
   #history_img img {
     margin-top: 200px;
   }
 
-  /* line 640, ../sass/wabisabi.scss */
+  /* line 642, ../sass/wabisabi.scss */
   #home_img img {
     margin-top: 1500px;
   }
 }
 @media only screen and (min-width: 820px) {
-  /* line 649, ../sass/wabisabi.scss */
+  /* line 651, ../sass/wabisabi.scss */
   nav {
     z-index: 999;
   }
 
-  /* line 653, ../sass/wabisabi.scss */
+  /* line 655, ../sass/wabisabi.scss */
   #img-headline {
     height: 520px;
     border-bottom: 10px solid goldenrod;
     overflow: hidden;
   }
-  /* line 659, ../sass/wabisabi.scss */
+  /* line 661, ../sass/wabisabi.scss */
   #img-headline #posudeVeca {
     display: none;
     width: 125%;
   }
-  /* line 664, ../sass/wabisabi.scss */
+  /* line 666, ../sass/wabisabi.scss */
   #img-headline #posudeManja {
     display: table;
     margin-top: 0;
   }
 
-  /* line 670, ../sass/wabisabi.scss */
+  /* line 672, ../sass/wabisabi.scss */
   header {
     border-bottom: none;
     height: 630px;
   }
 
-  /* line 676, ../sass/wabisabi.scss */
+  /* line 678, ../sass/wabisabi.scss */
   #menu {
     margin-left: 166px;
   }
-  /* line 679, ../sass/wabisabi.scss */
+  /* line 681, ../sass/wabisabi.scss */
   #menu .fa-desc {
     margin-left: 0px;
   }
 
-  /* line 685, ../sass/wabisabi.scss */
+  /* line 687, ../sass/wabisabi.scss */
   #site-branding {
     width: 246px;
   }
 
-  /* line 689, ../sass/wabisabi.scss */
+  /* line 691, ../sass/wabisabi.scss */
   #social-menu {
     width: 80px;
     overflow: hidden;
@@ -755,71 +756,71 @@ footer button {
     display: block;
     margin-left: 0;
   }
-  /* line 701, ../sass/wabisabi.scss */
+  /* line 703, ../sass/wabisabi.scss */
   #social-menu a {
     color: black;
     font-size: 1.3em;
     z-index: 9999;
   }
-  /* line 707, ../sass/wabisabi.scss */
+  /* line 709, ../sass/wabisabi.scss */
   #social-menu ul {
     display: block;
   }
-  /* line 711, ../sass/wabisabi.scss */
+  /* line 713, ../sass/wabisabi.scss */
   #social-menu li {
     padding: 25px 0;
     z-index: 9999;
   }
 
-  /* line 717, ../sass/wabisabi.scss */
+  /* line 719, ../sass/wabisabi.scss */
   #main {
     z-index: -1;
     background: transparent;
     padding: 0;
   }
 
-  /* line 722, ../sass/wabisabi.scss */
+  /* line 724, ../sass/wabisabi.scss */
   #img-headline {
     margin: 80px 80px 0;
   }
 
-  /* line 726, ../sass/wabisabi.scss */
+  /* line 728, ../sass/wabisabi.scss */
   #posudeManja {
     display: none;
   }
 
-  /* line 729, ../sass/wabisabi.scss */
+  /* line 731, ../sass/wabisabi.scss */
   #posudeVeca {
     display: table;
   }
 
-  /* line 733, ../sass/wabisabi.scss */
+  /* line 735, ../sass/wabisabi.scss */
   #headlines {
     position: absolute;
     left: 15px;
     top: 35%;
   }
-  /* line 739, ../sass/wabisabi.scss */
+  /* line 741, ../sass/wabisabi.scss */
   #headlines h2 {
     color: black;
   }
 
-  /* line 745, ../sass/wabisabi.scss */
+  /* line 747, ../sass/wabisabi.scss */
   #menu .fa {
     font-size: 1.3em;
   }
 
-  /* line 750, ../sass/wabisabi.scss */
+  /* line 752, ../sass/wabisabi.scss */
   .concept {
     background: transparent;
   }
-  /* line 752, ../sass/wabisabi.scss */
+  /* line 754, ../sass/wabisabi.scss */
   .concept #quote, .concept .read-more {
     padding: 3% 20%;
     text-align: center;
     display: none;
   }
-  /* line 758, ../sass/wabisabi.scss */
+  /* line 760, ../sass/wabisabi.scss */
   .concept #desc_quote_1 {
     display: block;
     font-size: 2em;
@@ -827,12 +828,12 @@ footer button {
     padding: 4% 0;
     letter-spacing: 0.1em;
   }
-  /* line 766, ../sass/wabisabi.scss */
+  /* line 768, ../sass/wabisabi.scss */
   .concept #mob_quote {
     display: none;
   }
 
-  /* line 770, ../sass/wabisabi.scss */
+  /* line 772, ../sass/wabisabi.scss */
   #headline_slideshow {
     display: flex;
     justify-content: center;
@@ -840,31 +841,31 @@ footer button {
     margin-left: 80px;
     margin-right: 80px;
   }
-  /* line 777, ../sass/wabisabi.scss */
+  /* line 779, ../sass/wabisabi.scss */
   #headline_slideshow h2 {
     padding: 5% 0 0 5%;
     text-align: left;
   }
 
-  /* line 782, ../sass/wabisabi.scss */
+  /* line 784, ../sass/wabisabi.scss */
   #slideshow {
     max-width: 600px;
     height: 480px;
   }
 
-  /* line 788, ../sass/wabisabi.scss */
+  /* line 790, ../sass/wabisabi.scss */
   #main_headlines_desc {
     display: block;
     font-size: 3em;
     width: 25%;
   }
 
-  /* line 794, ../sass/wabisabi.scss */
+  /* line 796, ../sass/wabisabi.scss */
   #main_headlines_mob {
     display: none;
   }
 
-  /* line 797, ../sass/wabisabi.scss */
+  /* line 799, ../sass/wabisabi.scss */
   #desc_quote_2 {
     display: block;
     font-size: 2em;
@@ -876,43 +877,43 @@ footer button {
     margin-bottom: 250px;
   }
 
-  /* line 807, ../sass/wabisabi.scss */
+  /* line 809, ../sass/wabisabi.scss */
   #sections {
     display: block;
     margin-top: 3%;
   }
-  /* line 811, ../sass/wabisabi.scss */
+  /* line 813, ../sass/wabisabi.scss */
   #sections .history-headline {
     left: 100px;
     top: 10px;
   }
-  /* line 816, ../sass/wabisabi.scss */
+  /* line 818, ../sass/wabisabi.scss */
   #sections .art-headline {
     right: 70px;
     top: -150px;
     left: auto;
   }
 
-  /* line 824, ../sass/wabisabi.scss */
+  /* line 826, ../sass/wabisabi.scss */
   #section .home-headline {
     right: 20px;
     top: -140px;
     left: auto;
   }
 
-  /* line 830, ../sass/wabisabi.scss */
+  /* line 832, ../sass/wabisabi.scss */
   #history_img {
     max-width: 40%;
     margin-left: 80px;
     margin-top: 200px;
   }
-  /* line 835, ../sass/wabisabi.scss */
+  /* line 837, ../sass/wabisabi.scss */
   #history_img img {
     margin-top: 300px;
     margin-left: -120px;
   }
 
-  /* line 841, ../sass/wabisabi.scss */
+  /* line 843, ../sass/wabisabi.scss */
   #art_img {
     max-width: 38%;
     overflow: hidden;
@@ -922,13 +923,13 @@ footer button {
     margin-right: 80px;
     position: absolute;
   }
-  /* line 851, ../sass/wabisabi.scss */
+  /* line 853, ../sass/wabisabi.scss */
   #art_img img {
     margin-top: 200px;
     margin-left: -550px;
   }
 
-  /* line 859, ../sass/wabisabi.scss */
+  /* line 861, ../sass/wabisabi.scss */
   #home_img {
     margin-top: -150px;
     position: absolute;
@@ -936,204 +937,204 @@ footer button {
     padding-top: 50px;
     max-width: 40%;
   }
-  /* line 868, ../sass/wabisabi.scss */
+  /* line 870, ../sass/wabisabi.scss */
   #home_img img {
     margin-top: 800px;
   }
 
-  /* line 873, ../sass/wabisabi.scss */
+  /* line 875, ../sass/wabisabi.scss */
   .main_headlines {
     font-size: 3em;
     margin-bottom: 30px;
   }
 
-  /* line 879, ../sass/wabisabi.scss */
+  /* line 881, ../sass/wabisabi.scss */
   footer {
     margin-top: 430px;
   }
-  /* line 881, ../sass/wabisabi.scss */
+  /* line 883, ../sass/wabisabi.scss */
   footer button {
     width: 40%;
     height: 40px;
     margin-bottom: 30px;
   }
-  /* line 886, ../sass/wabisabi.scss */
+  /* line 888, ../sass/wabisabi.scss */
   footer input {
     width: 40%;
     height: 40px;
   }
-  /* line 890, ../sass/wabisabi.scss */
+  /* line 892, ../sass/wabisabi.scss */
   footer h2 {
     padding: 50px;
   }
 }
 @media only screen and (min-width: 990px) {
-  /* line 898, ../sass/wabisabi.scss */
+  /* line 900, ../sass/wabisabi.scss */
   #headlines {
     top: 35%;
   }
 
-  /* line 903, ../sass/wabisabi.scss */
+  /* line 905, ../sass/wabisabi.scss */
   #img-headline #posudeManja {
     display: table;
     margin-top: -100px;
   }
 }
 @media only screen and (min-width: 1280px) {
-  /* line 917, ../sass/wabisabi.scss */
+  /* line 919, ../sass/wabisabi.scss */
   header {
     height: auto;
   }
 
-  /* line 921, ../sass/wabisabi.scss */
+  /* line 923, ../sass/wabisabi.scss */
   #social-menu {
     top: 30%;
   }
-  /* line 924, ../sass/wabisabi.scss */
+  /* line 926, ../sass/wabisabi.scss */
   #social-menu li {
     padding: 35px 0;
   }
 
-  /* line 928, ../sass/wabisabi.scss */
+  /* line 930, ../sass/wabisabi.scss */
   #img-headline {
     border-bottom: 10px solid goldenrod;
     height: 450px;
   }
-  /* line 933, ../sass/wabisabi.scss */
+  /* line 935, ../sass/wabisabi.scss */
   #img-headline #posudeManja {
     display: none;
   }
-  /* line 936, ../sass/wabisabi.scss */
+  /* line 938, ../sass/wabisabi.scss */
   #img-headline #posudeVeca {
     display: table;
     max-width: 120%;
   }
 
-  /* line 942, ../sass/wabisabi.scss */
+  /* line 944, ../sass/wabisabi.scss */
   #headlines {
     color: white;
   }
-  /* line 944, ../sass/wabisabi.scss */
+  /* line 946, ../sass/wabisabi.scss */
   #headlines h1 {
     padding: 0;
   }
-  /* line 947, ../sass/wabisabi.scss */
+  /* line 949, ../sass/wabisabi.scss */
   #headlines h2 {
     color: white;
   }
 
-  /* line 952, ../sass/wabisabi.scss */
+  /* line 954, ../sass/wabisabi.scss */
   #fotkaSlideshow {
     height: 550px;
   }
 
-  /* line 957, ../sass/wabisabi.scss */
+  /* line 959, ../sass/wabisabi.scss */
   .concept #desc_quote_1 {
     padding-top: 5%;
     text-align: left;
     margin-left: 160px;
   }
 
-  /* line 963, ../sass/wabisabi.scss */
+  /* line 965, ../sass/wabisabi.scss */
   #history_img, #home_img {
     height: 550px;
   }
 
-  /* line 966, ../sass/wabisabi.scss */
+  /* line 968, ../sass/wabisabi.scss */
   #history_img {
     margin-right: 8%;
   }
 
-  /* line 969, ../sass/wabisabi.scss */
+  /* line 971, ../sass/wabisabi.scss */
   #art_img {
     height: 450px;
     max-width: 39%;
   }
-  /* line 972, ../sass/wabisabi.scss */
+  /* line 974, ../sass/wabisabi.scss */
   #art_img img {
     margin-left: -150px;
     margin-top: -200px;
   }
 
-  /* line 977, ../sass/wabisabi.scss */
+  /* line 979, ../sass/wabisabi.scss */
   #home_img {
     margin-top: -150px;
   }
-  /* line 979, ../sass/wabisabi.scss */
+  /* line 981, ../sass/wabisabi.scss */
   #home_img img {
-    margin-top: 900px;
+    margin-top: 800px;
   }
 
-  /* line 985, ../sass/wabisabi.scss */
+  /* line 987, ../sass/wabisabi.scss */
   #section .home-headline {
     top: -130px;
   }
 
-  /* line 990, ../sass/wabisabi.scss */
+  /* line 992, ../sass/wabisabi.scss */
   footer {
     margin-top: 450px;
   }
 }
 @media only screen and (min-width: 1550px) {
-  /* line 1000, ../sass/wabisabi.scss */
+  /* line 1002, ../sass/wabisabi.scss */
   #social-menu li a {
     font-size: 1.5em;
   }
 
-  /* line 1007, ../sass/wabisabi.scss */
+  /* line 1009, ../sass/wabisabi.scss */
   #img-headline {
     height: 500px;
   }
 }
 @media only screen and (min-width: 1920px) {
-  /* line 1016, ../sass/wabisabi.scss */
+  /* line 1018, ../sass/wabisabi.scss */
   #history_img {
     margin-top: 400px;
   }
-  /* line 1018, ../sass/wabisabi.scss */
+  /* line 1020, ../sass/wabisabi.scss */
   #history_img img {
     margin-left: 0;
   }
 
-  /* line 1022, ../sass/wabisabi.scss */
+  /* line 1024, ../sass/wabisabi.scss */
   #art_img {
     height: 550px;
     margin-right: 260px;
     margin-top: -50px;
   }
-  /* line 1026, ../sass/wabisabi.scss */
+  /* line 1028, ../sass/wabisabi.scss */
   #art_img img {
     margin-left: -150px;
     margin-top: 0px;
   }
 
-  /* line 1032, ../sass/wabisabi.scss */
+  /* line 1034, ../sass/wabisabi.scss */
   #home_img {
     margin-top: -90px;
   }
-  /* line 1034, ../sass/wabisabi.scss */
+  /* line 1036, ../sass/wabisabi.scss */
   #home_img img {
     margin-top: 800px;
   }
 
-  /* line 1041, ../sass/wabisabi.scss */
+  /* line 1043, ../sass/wabisabi.scss */
   #sections .art-headline {
     right: 270px;
     top: -220px;
   }
-  /* line 1045, ../sass/wabisabi.scss */
+  /* line 1047, ../sass/wabisabi.scss */
   #sections .history-headline {
     left: 110px;
     top: 20px;
   }
 
-  /* line 1051, ../sass/wabisabi.scss */
+  /* line 1053, ../sass/wabisabi.scss */
   #section .home-headline {
     right: 30px;
     top: -60px;
   }
 
-  /* line 1056, ../sass/wabisabi.scss */
+  /* line 1058, ../sass/wabisabi.scss */
   footer {
     margin-top: 600px;
   }
