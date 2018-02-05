@@ -1,5 +1,5 @@
 
-var images = ["images/grana,jpg," "images/devojka.jpg", "images/soba.jpg"];
+var images = ["images/grana.jpg", "images/devojka.jpg", "images/soba.jpg"];
 
 var image_number = 0;
 var image_length = images.length - 1;

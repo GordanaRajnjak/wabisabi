@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wabi Sabi</title>
-    <link rel="stylesheet" href="sass/stylesheets/wabisabi.css" type="text/css" media="all">
+    <link rel="stylesheet" href="stylesheets/wabisabi.css" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -25,7 +27,7 @@
     </ul>
 </div>
 
-<div id="display_menu_desk" onclick="stay_menu()">
+<div id="display_menu_desk">
     
     <i class="fa fa-times" aria-hidden="true" onclick="display_menu_desk_none()"></i>
     
@@ -97,54 +99,9 @@
     <h2 id="main_headlines_mob">Latest about Wabi Sabi</h2>
     <div id="slideshow">
 
-<!-- SLIDESHOW JQ 
 
-<div id="displayokvir">
-    <ul class="okvir">
-        
-        <li class="fotka"><img class="imgBigScreen" src="images/grana.jpg">
-            <div class="caption">
-            <a href="slider_article_1.html" id="link">
-                <h1 class="slideshow_headlines">Ordinary becoming unordinary</h1>
-                <p class="read-more">
-                <a href="">Read more</a>
-                </p>
-            </a>
-            </div>
-        </li>
-        <li class="fotka"><img class="imgBigScreen" src="images/devojka.jpg">
-          <div class="caption">
-            <a href="slider_article_1.html" id="link">
-                <h1 class="slideshow_headlines">The age of beautiful imperfections</h1>
-                <p class="read-more">
-                <a href="">Read more</a>
-                </p>
-            </a>
-            </div>
-            </li>
-        <li class="fotka"><img class="imgBigScreen" src="images/vrata.jpg">
-         <div class="caption">
-            <a href="slider_article_1.html" id="link">
-                <h1 class="slideshow_headlines">Monasteries know wabi-sabi</h1>
-                <p class="read-more">
-                <a href="">Read more</a>
-                </p>
-            </a>
-            </div>
-            </li>
-        <li class="fotka"><img class="imgBigScreen" src="images/grana.jpg">
-         <div class="caption">
-            <a href="slider_article_1.html" id="link">
-                <h1 class="slideshow_headlines">Ordinary becoming unordinary</h1>
-                <p class="read-more">
-                <a href="">Read more</a>
-                </p>
-            </a>
-            </div>
-            </li>
-    </ul>
-</div>
--->
+
+
 <!-- SLIDESHOW ZA MOBILNI-->
 <div id="fotkaSlideshow">
 <img name="slideshow" src="images/grana.jpg">
@@ -231,8 +188,6 @@ function display_menu_mob() {
 }
 
 function display_menu_mob_none() {
-    
-    
     document.getElementById("display_menu_mob").style.display = "none";
     }
 
@@ -247,73 +202,17 @@ function display_menu_mob_none() {
 
 function display_menu_deck() {
    document.getElementById("transparent").style.opacity = "0.3";
-   
-    document.getElementById("display_menu_desk").style.transform = "translate(0px,200px)";
-    
+    document.getElementById("display_menu_desk").style.transform = "translate(0px,200px)"; 
 }
-
 
 function display_menu_desk_none() {
     document.getElementById("display_menu_desk").style.transform = "translate(0px,-200px)";
-   // document.getElementById("display_menu").style.display = "none";
-
     document.getElementById("transparent").style.opacity = "1";
- //   document.getElementById("false-transparent").style.display = "none";
+ 
 }
 
-// JQ SLIDER
-/*
-var width = 630;
-    var animatedSpeed = 3000;
-    var pause = 4000;
-    var currentSlide = 1;
 
-    var $slider = $('#displayokvir');
-    var $slideContainer = $slider.find('.okvir');
-    var $slides = $slideContainer.find('.fotka');
-
-    var interval;
-    
-    function nextSlide() {
-                $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
-                    currentSlide++;
-                if (currentSlide === $slides.length) {
-                    currentSlide = 1;
-                    $slideContainer.css('margin-left', 0);
-                }
-            }
-                )};
-    function prevSlide() {
-      $slideContainer.animate({'margin-left': '+='+width}, animatedSpeed, function() {
-                    currentSlide--;
-                if (currentSlide === 1) {
-                    currentSlide = $slides.length;
-                   $slideContainer.css('margin-left', -1890);
-                }
-            }
-                )};
-
-    function startSlider() {
-        interval = setInterval(function() {
-            $slideContainer.animate({'margin-left': '-='+width}, animatedSpeed, function() {
-                currentSlide++;
-                if (currentSlide === $slides.length) {
-                    currentSlide = 1;
-                    $slideContainer.css('margin-left', 0);
-                }
-            });        
-        }, pause);
-    }
-       function stopSlider() {
-           clearInterval(interval);
-
-       } 
-
-       $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
-       $('.buttons').on('mouseenter', stopSlider).on('mouseleave', startSlider);
-       startSlider();
-
-  */
+// SLIDESHOW
 
 function auto() {
     setInterval("change_image(1)", 4000);
@@ -348,7 +247,7 @@ function change_image(num) {
 
 $(window).on('scroll', function () {
 
-    $('.okvir').scrollTop($(window).scrollTop() / 1.5);
+    $('.okvir').scrollTop($(window).scrollTop() / 2);
     $('.okvir-bird').scrollTop($(window).scrollTop() / 3);
     $('#headlines').scrollTop($(window).scrollTop());
     
